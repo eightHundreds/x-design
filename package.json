@@ -1,0 +1,31 @@
+{
+  "name": "x-design",
+  "version": "1.0.0",
+  "description": "components design",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.sankuai.com/~lanmingming/x-design.git"
+  },
+  "keywords": [
+    "storybook",
+    "design",
+    "components"
+  ],
+  "author": "lanmingming",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/react": "^3.4.0",
+    "babel-core": "^6.26.0",
+    "@storybook/addon-actions": "^3.4.0",
+    "@storybook/addon-links": "^3.4.0"
+  },
+  "dependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  }
+}
