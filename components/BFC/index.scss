@@ -1,0 +1,9 @@
+.bfc-wrapper {
+  background-color: cadetblue;
+  margin: 10px;
+  overflow: hidden; // 触发BFC
+  .element {
+    background-color: aqua;
+    margin: 10px;
+  }
+}
