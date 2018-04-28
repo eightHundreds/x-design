@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test":"jest --json --outputFile=tests/.jest-test-results.json",
+    "test:dev":"jest --json --outputFile=tests/.jest-test-results.json --watch"
   },
   "repository": {
     "type": "git",
@@ -21,11 +23,17 @@
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.0",
     "@storybook/addon-links": "^3.4.0",
+    "@storybook/addon-notes": "^3.4.3",
     "@storybook/react": "^3.4.0",
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^22.4.3",
     "css-loader": "^0.28.11",
+    "jest": "^22.4.3",
     "node-sass": "^4.8.3",
+    "react-test-renderer": "^16.3.2",
+    "regenerator-runtime": "^0.11.1",
     "sass-loader": "^7.0.1",
+    "storybook-addon-jest": "0.0.1",
     "style-loader": "^0.21.0"
   },
   "dependencies": {
